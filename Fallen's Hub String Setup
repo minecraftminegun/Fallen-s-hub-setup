@@ -5,25 +5,21 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483362458",
 	PremiumOnly = false
 })
-
 local Tab2 = Window:MakeTab({
 	Name = "Fallen King's Murder Mystery 2",
 	Icon = "rbxassetid://4483362458",
 	PremiumOnly = false
 })
-
 local Tab3 = Window:MakeTab({
 	Name = "Zeerox Build A Boat For Treasure",
 	Icon = "rbxassetid://4483362458",
 	PremiumOnly = false
 })
-
 local Tab4 = Window:MakeTab({
 	Name = "Oriol Lucky Blocks Battlegrounds",
 	Icon = "rbxassetid://4483362458",
 	PremiumOnly = false
 })
-
 local Tab5 = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483362458",
