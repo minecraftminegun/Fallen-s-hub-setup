@@ -31,9 +31,9 @@ local Tab5 = Window:MakeTab({
 Tab:AddButton({
 	Name = "Vynixu Murder Mystery 2",
 	Callback = function()
-if game.PlaceId == 142823291 then -- Murder Mystery 2
-loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
-end
+        if game.PlaceId == 142823291 then -- Murder Mystery 2
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+        end
 })
 
 
@@ -41,8 +41,8 @@ end
 Tab2:AddButton({
 	Name = "Fallen King's Murder Mystery 2",
 	Callback = function()
-if game.PlaceId == 142823291 then -- Murder Mystery 2
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+        if game.PlaceId == 142823291 then -- Murder Mystery 2
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
 
 loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
 
@@ -55,20 +55,21 @@ end
 
 ---//ZEEROX BUILD A BOAT FOR TREASURE
 Tab3:AddButton({
-  Name = "Zeerox Build A Boat For Treasure",
+        Name = "Zeerox Build A Boat For Treasure",
 	Callback = function()
-if game.PlaceId == 537413528 then -- Build A Boat For Treasure
-loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
-end
+        if game.PlaceId == 537413528 then -- Build A Boat For Treasure
+        loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+        end
 })
 
 
 ---//ORIOL LUCKY BLOCKS BATTLEGROUNDS
 Tab4:AddButton({
-  Name = "Oriol Lucky Blocks Battlegrounds",
+        Name = "Oriol Lucky Blocks Battlegrounds",
 	Callback = function()
-if game.PlaceId == 537413528 then -- Lucky Blocks Battlegrounds
-loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/Lucky-Blocks-Battlegrounds-OP-script/main/LBB%20op%20script'))()
+        if game.PlaceId == 537413528 then -- Lucky Blocks Battlegrounds
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/Lucky-Blocks-Battlegrounds-OP-script/main/LBB%20op%20script'))()
+        end
 })
 
 
