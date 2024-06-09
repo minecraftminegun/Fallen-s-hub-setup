@@ -1,0 +1,102 @@
+local OrionLib = loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/lbb-setup/main/string%20setup'))()
+local Window = OrionLib:MakeWindow({Name = "Fallen King's Hub"})
+local Tab = Window:MakeTab({
+	Name = "Vynixu Murder Mystery 2",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+
+local Tab2 = Window:MakeTab({
+	Name = "Fallen King's Murder Mystery 2",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+
+local Tab3 = Window:MakeTab({
+	Name = "Zeerox Build A Boat For Treasure",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+
+local Tab4 = Window:MakeTab({
+	Name = "Oriol Lucky Blocks Battlegrounds",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+
+local Tab5 = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483362458",
+	PremiumOnly = false
+})
+
+
+---//VYNIXU MURDER MYSTERY 2 
+Tab:AddButton({
+	Name = "Vynixu Murder Mystery 2",
+	Callback = function()
+if game.PlaceId == 142823291 then -- Murder Mystery 2
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+end
+})
+
+
+---//FALLEN KING'S MURDER MYSTERY 2 
+Tab2:AddButton({
+	Name = "Fallen King's Murder Mystery 2",
+	Callback = function()
+if game.PlaceId == 142823291 then -- Murder Mystery 2
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ihaveash0rtnamefordiscord/Releases/main/MurderMystery2HighlightESP"))(' Watermelon ?')
+
+loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Drifter0507/GUIS/main/MURDER%20MYSTERY%202", true))()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+end
+})
+
+
+---//ZEEROX BUILD A BOAT FOR TREASURE
+Tab3:AddButton({
+  Name = "Zeerox Build A Boat For Treasure",
+	Callback = function()
+if game.PlaceId == 537413528 then -- Build A Boat For Treasure
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+end
+})
+
+
+---//ORIOL LUCKY BLOCKS BATTLEGROUNDS
+Tab4:AddButton({
+  Name = "Oriol Lucky Blocks Battlegrounds",
+	Callback = function()
+if game.PlaceId == 537413528 then -- Lucky Blocks Battlegrounds
+loadstring(game:HttpGet('https://raw.githubusercontent.com/minecraftminegun/Lucky-Blocks-Battlegrounds-OP-script/main/LBB%20op%20script'))()
+})
+
+
+---//CREDITS 
+Tab5:AddButton({
+	Name = "Copy link to discord",
+	Callback = function()
+      	setclipboard('https://discord.gg/Y6t5gsug')
+	end
+})
+Tab5:AddLabel("Made by minecraft_minegun#0")
+Tab5:AddLabel("Subscribe to @fallenkingchannel3627")
+
+OrionLib:MakeNotification({
+	Name = "GUI",
+	Content = "Successfully loaded GUI",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+OrionLib:MakeNotification({
+	Name = "GUI",
+	Content = "Copied link to the discord server!",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+setclipboard('https://discord.gg/Y6t5gsug')
+OrionLib:Init()
